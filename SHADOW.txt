@@ -1,0 +1,11 @@
+shadow prebuilt repo: prebuilts_target_libartpalette (target)
+  upstream: system/libartpalette
+  api-level: 32 payload (branch 34-20261024)
+  blobs: org.blisslabs.ag.libartpalette.apex + org.blisslabs.ag.libartpalette.dev.apex @ 14000002 (extracted; blobs deleted, not tracked)
+  layout: flattened root (payload contents at repo root)
+  modules: libartpalette-system 
+  notes: platform-mainline-sdk (sdk) and platform-mainline-test-exports (module_exports)
+    dropped - metadata-only, referenced only by build scripts not Soong modules.
+    Static variant disabled in source; shared-only matches. dev payload carries
+    palette + tombstoned headers (recipe patch).
+  date: 2026-10-24
